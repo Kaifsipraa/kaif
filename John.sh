@@ -1,7 +1,7 @@
 #!/bin/bash
 
 ##   Bphisher 	: 	Automated Phishing Tool
-##   Author 	: 	BONAVENTURE
+##   Author 	: 	
 ##   Version 	: 	2.1
 ##   Github 	: 	https://github.com/KAIFSIPRAA
 
@@ -170,8 +170,8 @@ banner() {
 banner_small() {
 	cat <<- EOF
 		${BLUE}
-		${BLUE}  ░█▀█░░█▀█░░████░░░█▀█
-		${BLUE}  ░█▀█░░█░█░░█░░░█░░█▀█
+		${BLUE}  ░█▀█░░█▀█░░████░░░ ▀█
+		${BLUE}  ░█   ░░██░░  ██░░█ ▀ █
 		${BLUE}  ░█▄█░░█▄█░░█░░░█░░█░█
 ${WHITE} 2.2
 	EOF
@@ -470,7 +470,7 @@ tunnel_menu() {
 			start_cloudflared;;
 		*)
 			echo -ne "\n${RED}[${WHITE}!${RED}]${RED} Invalid Option, Try Again..."
-			{ sleep 1; tunnel_menu; };;
+			{ sl eep 1; tunnel_menu; };;
 	esac
 }
 
